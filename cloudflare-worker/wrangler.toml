@@ -1,0 +1,17 @@
+name = "telegram-translator-bot"
+main = "src/index.js"
+compatibility_date = "2026-06-12"
+account_id = "504eb23138a764778d18667edcb80112"
+workers_dev = true
+
+[vars]
+OPENAI_MODEL = "gpt-5.4-mini"
+TRANSLATION_CONCURRENCY = "10"
+
+[[durable_objects.bindings]]
+name = "TRANSLATION_QUEUE"
+class_name = "TranslationQueue"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["TranslationQueue"]

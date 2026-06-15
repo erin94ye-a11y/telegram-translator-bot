@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+work/
+*.py[cod]
+*.log
+.git/
+*.ps1
+*.cmd
+*.vbs
+install_autostart.py
