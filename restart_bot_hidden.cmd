@@ -18,5 +18,5 @@ if exist "work\bot.log" (
 )
 
 echo.
-echo Done. Send Chinese text to the Telegram bot to test the Maly translation style.
+echo Done. Send Chinese text or a chat screenshot to the Telegram bot to test the Elena Vega translation style.
 pause
